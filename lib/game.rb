@@ -89,13 +89,14 @@ class Game
     if !input.between?(0,2)
       self.start
     end
-    
+
     case input
     when 0
-      game = Game.new(Players::Computer.new("X"))
+      game = Game.new(Players::Computer.new("X"),Players::Computer.new("O"),Board.new)
+      game.start
     when 1
-      
+
     when 2
-      
+
   end
 end
