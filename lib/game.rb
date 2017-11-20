@@ -83,7 +83,7 @@ class Game
   def self.start
     puts "WELCOME TO TIC TAC TOE"
     puts "Would you like to play with 0, 1, or 2 players?"
-    input = gets.chomp
+    input = gets.chomp.to_i
     if !input.between?(0,2)
       self.start
     end
