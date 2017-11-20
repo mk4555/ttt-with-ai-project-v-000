@@ -76,6 +76,7 @@ class Game
     if self.draw?
       puts "Cat's Game!"
     else
+      @board.display
       puts "Congratulations #{self.winner}!"
     end
   end
