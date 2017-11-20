@@ -74,6 +74,7 @@ class Game
       self.turn
     end
     if self.draw?
+      @board.display
       puts "Cat's Game!"
     else
       @board.display
