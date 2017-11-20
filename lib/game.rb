@@ -79,6 +79,8 @@ class Game
     end
   end
 
+  def play
+
   def start
 
     puts "WELCOME TO TIC TAC TOE"
@@ -87,10 +89,10 @@ class Game
     if !input.between?(0,2)
       self.start
     end
-
+    
     case input
     when 0
-      
+      game = Game.new(Players::Computer.new("X"))
     when 1
       
     when 2
