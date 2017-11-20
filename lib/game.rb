@@ -94,9 +94,7 @@ class Game
     when 0
       game = Game.new(Players::Computer.new("X"),Players::Computer.new("O"),Board.new)
       game.start
-    when 1
-
-    when 2
+    end
 
   end
 end
