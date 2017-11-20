@@ -102,6 +102,12 @@ class Game
       game = Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new)
       game.play
     end
-
+    puts "Would you like to play again? (y/n)"
+    again = gets.chomp
+    if again == "y"
+      self.start
+    else
+      return
+    end
   end
 end
