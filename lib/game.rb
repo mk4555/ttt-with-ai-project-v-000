@@ -86,7 +86,6 @@ class Game
     input = gets.chomp
     if !input.between?(0,2)
       self.start
-    end
     else
       self.play
     end
