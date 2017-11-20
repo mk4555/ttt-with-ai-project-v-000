@@ -91,7 +91,7 @@ class Game
     case input
     when 0
       game = Game.new(Players::Computer.new("X"),Players::Computer.new("O"),Board.new)
-      game.start
+      game.play
     end
 
   end
