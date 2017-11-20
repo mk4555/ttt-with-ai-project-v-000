@@ -80,7 +80,7 @@ class Game
   end
 
   def play
-
+  end
   def start
 
     puts "WELCOME TO TIC TAC TOE"
