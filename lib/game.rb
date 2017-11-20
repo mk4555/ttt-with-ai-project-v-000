@@ -97,6 +97,7 @@ class Game
     when 1
 
     when 2
+    end
 
   end
 end
