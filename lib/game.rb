@@ -79,10 +79,8 @@ class Game
     end
   end
 
-  def play
-  end
-  def start
 
+  def start
     puts "WELCOME TO TIC TAC TOE"
     puts "Would you like to play with 0, 1, or 2 players?"
     input = gets.chomp
