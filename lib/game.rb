@@ -70,6 +70,7 @@ class Game
 
   def play
     while !self.over?
+      @board.display
       self.turn
     end
     if self.draw?
