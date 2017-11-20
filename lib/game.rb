@@ -87,6 +87,13 @@ class Game
     if !input.between?(0,2)
       self.start
     end
-    
+
+    case input
+    when 0
+      
+    when 1
+      
+    when 2
+      
   end
 end
