@@ -100,6 +100,7 @@ class Game
       game.play
     when 2
       game = Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new)
+      game.play
     end
 
   end
