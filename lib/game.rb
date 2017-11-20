@@ -95,6 +95,11 @@ class Game
     when 0
       game = Game.new(Players::Computer.new("X"),Players::Computer.new("O"),Board.new)
       game.play
+    when 1
+      game = Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new)
+      game.play
+    when 2
+      game = Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new)
     end
 
   end
