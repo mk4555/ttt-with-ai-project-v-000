@@ -80,7 +80,7 @@ class Game
   end
 
   def start
-    
+
     puts "WELCOME TO TIC TAC TOE"
     puts "Would you like to play with 0, 1, or 2 players?"
     input = gets.chomp
@@ -89,5 +89,6 @@ class Game
     end
     else
       self.play
+    end
   end
 end
